@@ -15,8 +15,6 @@ build:
   # manually we would not be producing unique filenames.
   number: 0
   string: {{ mpi }}
-  # TODO: support Windows when msmpi is packaged
-  skip: true  # [win]
 
 requirements: {}
   # None, mpi providers should depend on me
