@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mpi-feedstock/b
 
 Home: https://github.com/conda-forge/mpi-feedstock
 
-Package license: BSD 3-clause
+Package license: BSD-3-Clause
 
 Summary: Metapackage to select the MPI variant. Use conda's pinning mechanism in your environment to control which variant you want.
 
@@ -27,6 +27,13 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
+              <td>linux_64_mpiimpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mpi-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiimpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_mpimpi_serial</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
@@ -52,6 +59,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mpi-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_mpiimpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mpi-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiimpi" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -83,6 +97,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_ppc64le_mpiimpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mpi-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiimpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_ppc64le_mpimpi_serial</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
@@ -108,6 +129,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mpi-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_mpiimpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mpi-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiimpi" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -139,6 +167,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_mpiimpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mpi-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiimpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_mpimpi_serial</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
@@ -164,6 +199,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mpi-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpi" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_mpiimpi</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3999&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mpi-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpiimpi" alt="variant">
                 </a>
               </td>
             </tr><tr>

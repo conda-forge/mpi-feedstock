@@ -1,0 +1,12 @@
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+mpi:
+- impi
+mpich:
+- '4'
+openmpi:
+- '4'
+target_platform:
+- win-64
