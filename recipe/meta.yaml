@@ -5,11 +5,10 @@
 # The version should be in the form X.Y[.z], where X denotes major infrastructural change to how mpi is managed,
 # and Y denoting mpi priority. Having MPI priority causes `conda upgrade --all` to switch to preferred provider,
 # so currently express no priority.
-# .z can be incremented for fully compatible changes
 {% set Y = 0 %}
 package:
   name: mpi
-  version: 1.{{ Y }}.1
+  version: 1.{{ Y }}
 
 build:
   # We mustn't use the build number in the mpi package - because we are defining the string,
