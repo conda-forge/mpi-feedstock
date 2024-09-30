@@ -4,3 +4,4 @@ mpi:
   - msmpi
   - mpi_serial
   - impi
+  - mvapich
