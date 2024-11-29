@@ -9,7 +9,7 @@
 {% set Y = 0 %}
 package:
   name: mpi
-  version: 1.{{ Y }}.1
+  version: 1.{{ Y }}.0
 
 build:
   # We mustn't use the build number in the mpi package - because we are defining the string,
