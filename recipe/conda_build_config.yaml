@@ -5,3 +5,4 @@ mpi:
   - mpi_serial
   - impi
   - mvapich
+  - psmpi
